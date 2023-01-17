@@ -1,0 +1,227 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-image: url("ImagenesTp/pompon.jpg"); 
+    background-size: cover;
+	
+    
+}
+.mapa{
+    border-radius: 15px;
+}
+
+
+.formulario{
+	float: left;
+	width: 50%;
+	margin: auto;
+	color:black;
+}
+.formu-ti{
+        
+    color:black;
+    text-align: center;
+    
+}
+
+.caja-1{
+	width: 250px;
+	height: 40px;
+	margin: 20px 20px;
+	padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    font-family: 'Space Mono', monospace;
+}
+.caja-2{
+	width: 580px;
+	height: 100px;
+	margin: 20px 20px;
+	padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    font-family: 'Space Mono', monospace;
+}
+.correr{
+	margin: 20px 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Space Mono', monospace;
+    width: 600px;
+    height: 50px;
+    color: #fff;
+    background: #31384A;
+}
+
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+}
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+}
+.datos-contacto li i{
+	color: #85c34a;
+	font-size: 60px;
+}
+
+
+.centrado{
+	margin: 0 auto;
+	padding: 0 0.8em;
+}
+.menu-section{
+	padding-bottom: 2em;
+	margin-bottom: 1.5em;
+	border-bottom: 1px solid hsl(0, 0%);
+	/*font-size: 1em;*/
+}
+
+.menu ul{
+	list-style-type: none; 
+	padding: 0;
+	margin:0;
+	
+
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+	padding: .6em 1em; 
+	font-size: 0.9em;
+}
+
+.menu li a:hover {
+	background: hsl(0, 0%, 25%);
+	border-radius: 2em;
+}
+ 
+
+
+ .menu-simple ul{
+ 	display: flex;  
+ 	flex-wrap: wrap;
+ 	justify-content:space-between;
+ }					
+
+
+ .menu-simple li{
+ 	flex:1 0 auto;
+ 	text-align: center;
+ }
+
+@media screen and (min-width: 600px)and (max-width:1023px){
+	x.centrado{
+		max-width: 52em;
+    }
+    
+    
+    .mapa{
+        border-radius: 15px;
+        width: 580px;
+    }
+    
+    .caja-1{
+        width: 560px;
+        height: 30px;
+        margin: 20px 20px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        font-family: 'Space Mono', monospace;
+    }
+    .caja-2{
+        width: 560px;
+        height: 80px;
+        margin: 20px 20px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        font-family: 'Space Mono', monospace;
+    }
+    
+    
+    .correr{
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'Space Mono', monospace;
+        width: 580px;
+        height: 50px;
+        color: #fff;
+        background: #31384A;
+        
+            }
+    
+}
+@media screen and (max-width:599px){
+
+
+    .mapa{
+        border-radius: 15px;
+        width: 468px;
+    }
+    
+    
+    .formulario{
+        float: left;
+        width: 50%;
+        margin: auto;
+        color:black;
+        
+    }
+    .formu-ti{
+        
+        color: black;
+        text-align: center;
+    }
+    
+    .caja-1{
+        width: 400px;
+        height: 30px;
+        margin: 20px 20px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        font-family: 'Space Mono', monospace;
+    }
+    .caja-2{
+        width: 400px;
+        height: 80px;
+        margin: 20px 20px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+        font-family: 'Space Mono', monospace;
+    }
+    
+    
+    .correr{
+        margin: 20px 20px;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'Space Mono', monospace;
+        width: 420px;
+        height: 50px;
+        color: #fff;
+        background: #31384A;
+        
+            }
+    
+    .datos-contacto{
+        list-style: none;
+        text-align: center;
+    }
+    .datos-contacto li{
+        color: #444;
+        padding-bottom: 5px;
+    }
+    .datos-contacto li i{
+        color: #85c34a;
+        font-size: 60px;
+    }
+   
+}

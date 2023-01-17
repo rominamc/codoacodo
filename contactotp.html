@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mapayformulariotp.css">
+    <meta name="viewport" content="width=device-width , initial-scale=1" >
+	<title>mapa y formulario contacto</title>
+</head>
+<body>
+    <header>
+        <div class="centrado">
+            <section class="menu-section">
+                <nav class="menu-simple menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productostp.html">Productos</a></li>
+                        <li><a href="index.html#regalarplantas">Regalos</a></li>
+                        <li><a href="index.html#huertaorganica">Novedades</a></li>
+                        <li><a href="index.html#cursos">Cursos</a></li>
+                        <li><a href="contactotp.html">Contacto</a></li>
+                    </ul>
+                </nav>	
+            </section>
+        </div>
+    
+    </header>
+	
+
+	<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.5620339638212!2d-58.47649728519855!3d-34.513985960261984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb15aaa5374e5%3A0x499fe8f5d07a8ca8!2sItalia%20%26%20Juan%20D%C3%ADaz%20de%20Sol%C3%ADs%2C%20Vicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1600959643032!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<div class="formulario">
+        <h3 class="formu-ti">Dejanos tus dudas o consultas</h3>
+            
+            
+			<form action="enviarmailtp.php" method="post">
+				<input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+				<input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+				<input type="tel" name="teléfono" placeholder="Telefono" class="caja-1" required>
+				<input type="text" name="asunto" placeholder="Asunto" class="caja-1">
+				<textarea name="mensaje" id="" cols="30" rows="10" placeholder="Comentarios" class="caja-2"></textarea>
+				<button type="submit" class="correr">Enviar</button>
+			</form>
+		</div>
+</body>
+</html>
